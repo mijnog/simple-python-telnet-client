@@ -14,7 +14,7 @@ def signal_handler():
 def main():
     # Check for command line arguments
     if len(sys.argv) < 2:
-        print("Usage: python telnet_client.py <ip_address> [port]")
+        print("Usage: python3 telnetclient.py <ip_address> [port]")
         sys.exit(1)
 
     ip_address = sys.argv[1]  # Get the IP address from the arguments
